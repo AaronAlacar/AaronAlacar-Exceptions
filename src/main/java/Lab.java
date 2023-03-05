@@ -21,8 +21,7 @@ public class Lab {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow() {
-        int a = 10, b = 0;
-        System.out.println(a/b);   
+    public void mustThrow() throws Exception {
+        throw new Exception("Exception message");
     }
 }
